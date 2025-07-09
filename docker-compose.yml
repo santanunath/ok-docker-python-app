@@ -1,0 +1,7 @@
+services:
+
+  python-app:
+    container_name: python-app
+    build:
+      context: .
+      dockerfile: Dockerfile
